@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.cart{
+    position: relative;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+}
+.cartempty{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.cartDez{
+    font-weight: 400;
+    font-size: 20px;
+}
+.cartDez1{
+    font-size: 35px;
+    font-weight: 500;
+}
+.ToshpBtn{
+    border-radius: 16px;
+    border: 2px solid chartreuse;
+    padding: 5px;
+    font-weight:500;
+    color: rgb(34, 12, 238);
+    margin-left: 45%;
+}
+.ToshpBtn:hover{
+    box-shadow: 0 0 20px rgb(50, 247, 0);
+}
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+.amount button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+    border-radius: 10px;
+    background-color: rgb(248, 244, 28);
+    font-size: larger;
+    text-align: center;
+    
+}
+.delete{
+    position: absolute;
+    top:0;
+    right: 5px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+}
+.total{
+    width: 100%;
+    height: 50px;
+    border: 3px solid rgb(225, 0, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+.total:hover{
+    box-shadow: 0 0 20px rgb(225, 0, 255);;
+}
+.total h3{
+    color: crimson;
+}
+.cartemptyTxt{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+}
+
+@media screen and  (max-width: 600px) {
+    .cartempty{
+        height: 300px;
+        width: 300px;
+    }
+    .amount button{
+        justify-content: center;
+    }
+    .ToshpBtn{
+        margin-left: 30%;
+    }
+}

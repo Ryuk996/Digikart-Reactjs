@@ -1,0 +1,16 @@
+.radioz{
+    display: none;
+}
+.starz1{
+    cursor: pointer;
+    transition: color 200ms;
+    /* color: #ffc107; */
+    color: rgb(5, 1, 248);
+    
+}
+.starz2{
+    cursor: pointer;
+    transition: color 200ms;
+    color:#cccccc;
+    
+}

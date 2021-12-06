@@ -1,0 +1,110 @@
+
+
+.FileContentZ{
+  background-color: rgb(47, 255, 186);;
+  padding: 25px;
+}
+
+.update{
+    margin-top: 2%;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #0eddca, #00c2df, #00a4f4, #007ff8, #084edc);
+    border-radius: 16px;
+    border: 1px solid #03d5e4;
+    border-width: 1px 1px 1px 1px;
+    padding: 5px 20px 5px 10px;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+      color: rgb(15, 1, 1);
+    font-size: 16px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    margin-left: 20%;
+    
+  }
+  .homebtnZ{
+    height: 40px;
+   width: 40px;
+    margin-bottom: 2%;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid rgb(47, 255, 186);
+    background-color: rgb(47, 255, 186);
+  }
+  .homebtnZ:hover{
+    border: 2px solid rgb(243, 9, 9);
+}
+.AddDp{
+  /* padding-left: 2%; */
+  margin-right: 2%;
+  height: 70px;
+   width: 70px;
+  cursor: pointer;
+  border: 1px solid rgb(47, 255, 186);
+  background-color: rgb(47, 255, 186);
+}
+.AddDp:hover{
+  border: 2px solid rgb(243, 9, 9);
+}
+.DpUploadbtn:hover{
+  border: 2px solid rgb(3, 119, 13);
+  
+}
+ .Dp{
+   object-fit: contain;
+   cursor: pointer;
+   width: 200px;
+   height: 200px;
+
+  /* w-full object-contain cursor-pointer */
+ }
+ .DpUploadbtn{
+   height: 40px;
+   width: 40px;
+   border: 1px mediumseagreen;
+   border-radius: 50%;
+   background-color: palegreen;
+   margin-left: 1%;
+ }
+ .choosefile{
+  width : 300px;
+  background: #46a6d6;
+  border: none;
+  outline: none;
+  margin-top: 4%;
+  /* box-shadow: 2px 5px 2px black; */
+  border-radius: 50px;
+  margin-left: 1%;
+}
+::-webkit-file-upload-button{
+  border:none;
+  background: #084edc;
+  border-radius: 50px;
+  height: 40px;
+  color: antiquewhite;
+  width: 100px;
+  box-shadow: 2px 0px  0px rgb(15, 15, 15);
+}
+
+  @media screen and  (max-width: 600px) {
+    .update{
+        margin-left: 5%;
+    }
+    .DpUploadbtn{
+      margin-top: 2%;
+    }
+    .Dp{
+      margin-bottom:1%;
+
+    }
+    .profilePicP{
+      margin-bottom: 3%;
+    }
+    .homebtnZ{
+      margin-left: 85%;
+    }
+  }

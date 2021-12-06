@@ -1,0 +1,142 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+    border: 2px solid rgb(80, 79, 79);
+    margin-top: 10px;
+}
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+.box-detail{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+.box-detail .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: darkblue;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+    text-align: left;
+}
+/**/
+.prz{
+    text-align: left !important;
+    margin-right: 85%;
+}
+.pricez{
+    padding: 5px;
+    font-size:large;
+    font-weight:700;
+}
+.dz{
+    font-size:large;
+    font-weight:600;
+    padding: 5px;
+    width: 350px;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+}
+.box-detail p{
+    line-height: 1.5;
+    margin: 10px 0;
+    /* opacity: 0.8; */
+    text-align: left;
+    color: black !important;
+}
+.box-detail .cart{
+    background: #333;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+    /* background-color: red; */
+  }
+  
+  .rowz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .columnz {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .blue-column {
+  
+    height: 400px;
+    /* width: 130px; */
+  }
+  
+  .green-column {
+    
+    height: 400px;
+    /* width: 400px; */
+  }
+  .detailMob{
+    display: none;
+}
+
+@media screen and  (max-width: 600px) {
+    .box-detail{
+        margin: 5px 5px;
+    }
+    .detail img{
+        max-width: 250px;
+        width: 100%;
+        margin: 20px;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+    }
+    .prz{
+        text-align: left !important;
+        margin-right: 60%;
+        font-weight: 800;
+        font-size: 20px;
+        color: rgb(21, 241, 50);
+    }
+    .rowz{
+        display:none ;
+    }
+    .detailMob{
+        display: block;
+    }
+   .detailLeft{
+       font-size: medium;
+       font-weight: 500;
+   }
+    .dz{
+        font-size:15px;
+        font-weight:300;
+         width: 250px; 
+         overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+    }
+
+  }
