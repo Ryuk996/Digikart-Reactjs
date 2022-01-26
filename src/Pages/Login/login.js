@@ -7,6 +7,7 @@ import axios from 'axios';
 import {useHistory} from "react-router-dom"
 import {Link} from "react-router-dom"
 import {showErrMsg,showSuccessMsg} from "../../Notifications/Notification"
+import { Email, LockOpen } from '@material-ui/icons';
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -65,6 +66,11 @@ function Login() {
             </form>
             {err&& showErrMsg(err)}
                     {success && showSuccessMsg(success)}
+                <div className="credential">                                                   
+                        <h6>Demo credential</h6>
+                        <h6><Email className="credicon"/>: sasuke@thail.com</h6>
+                        <h6><LockOpen className="credicon"/>: 12345678</h6>
+                    </div>
                 <span className="text-white">New user ?</span><Link to="/register" className="register">Register</Link>
         </div>
     </>
